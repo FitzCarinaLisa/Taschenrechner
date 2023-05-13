@@ -1,0 +1,30 @@
+﻿<Window x:Class="Taschenrechner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Taschenrechner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="7" Click="btn_sieben" HorizontalAlignment="Left" Height="51" Margin="238,131,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="8" Click="btn_acht" HorizontalAlignment="Left" Height="51" Margin="294,131,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="9" Click="btn_neun" HorizontalAlignment="Left" Height="51" Margin="350,131,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="X" Click="btn_mal" HorizontalAlignment="Left" Height="51" Margin="406,131,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="4" Click="btn_vier" HorizontalAlignment="Left" Height="51" Margin="238,182,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="5" Click="btn_fuenf" HorizontalAlignment="Left" Height="51" Margin="294,182,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="6" Click="btn_sechs" HorizontalAlignment="Left" Height="51" Margin="350,182,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="-" Click="btn_minus" HorizontalAlignment="Left" Height="51" Margin="406,182,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="1" Click="btn_eins" HorizontalAlignment="Left" Height="51" Margin="238,233,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="2" Click="btn_zwei" HorizontalAlignment="Left" Height="51" Margin="294,233,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="3" Click="btn_drei" HorizontalAlignment="Left" Height="51" Margin="350,233,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="+" Click="btn_plus" HorizontalAlignment="Left" Height="51" Margin="406,233,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="0" Click="btn_null" HorizontalAlignment="Left" Height="51" Margin="238,284,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="." Click="btn_punkt" HorizontalAlignment="Left" Height="51" Margin="294,284,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="=" Click="btn_ergebnis" HorizontalAlignment="Left" Height="51" Margin="350,284,0,0" VerticalAlignment="Top" Width="56"/>
+        <Button Content="AC" Click="btn_loeschen" HorizontalAlignment="Left" Height="51" Margin="406,284,0,0" VerticalAlignment="Top" Width="56"/>
+        <TextBox x:Name="txt_ergebnis" HorizontalAlignment="Left" Margin="141,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="549" Height="55" FontSize="36"/>
+
+
+    </Grid>
+</Window>
